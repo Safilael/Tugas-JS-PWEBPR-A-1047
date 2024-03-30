@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+
+    width: 610px;
+    height: 329px;
+    border-radius: 30px;
+    background-color:  #DBDBDB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box2{
+    width: 475px;
+    height: 56px;
+    border-radius: 20px;
+    background-color: #FEEEE2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+.kontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#bar{
+    width: 219px;
+    height: 219px;
+    position: relative;
+    top: -45px;
+}
+
+#jdl{
+    position: relative;
+    top: -45px;
+}
+
+button{
+    width: 157px;
+    height: 41px;
+    border-radius: 12PX;
+    border: none;
+
+}
+
+#btn1{
+    background-color: #6FD240;
+}
+
+#btn2{
+    background-color: #E12E2E;
+    color: white;
+}
+
+.Tombol{
+    position: relative;
+    top: -75px;
+    gap: 25px;
+    display: flex;
+}
